@@ -1,6 +1,6 @@
 # Cake Shop
 
-![screenshot to come](./images/preview-screenshot.jpg)
+![screenshot to come](./images/preview.png)
 
 ## Content
 
