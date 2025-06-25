@@ -249,6 +249,12 @@ button {
     margin-right: 30px;
 }
 
+.hero-image {
+    animation: float 3s ease-in-out infinite;
+  
+
+}
+
 /* ABOUT SECTION */
 
 .about-section {
@@ -301,6 +307,8 @@ button {
 .about-section .social-link-list .social-link:hover {
     color: var(--secondary-color);
 }
+
+
 
 
 /* MENU SECTION */
@@ -541,6 +549,20 @@ button {
 
 }
 
+
+/* ANIMATIONS */
+
+
+  @keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+
+  }
+  50% {
+    transform: translateY(-10px);
+
+  }
+}
 
 
 /* RESPONSIVE */
